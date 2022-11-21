@@ -23,8 +23,6 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install mocha -g
-        mocha index.js
-        mocha schedule.js
-        mocha haksa.txt
+        mocha index.app
       env:
         CI: true
