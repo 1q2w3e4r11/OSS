@@ -2,10 +2,9 @@ name: Mocha test
 
 on:
   push:
-       branches:[develop, kmc, ksm, ydh, bugfix]
-       
+    branches: [ "main", "kmc", "ksm", "udh" ]
   pull_request:
-       branches:[main, develop]
+    branches: [ "main", "develop" ]
  
 jobs:
   build:
